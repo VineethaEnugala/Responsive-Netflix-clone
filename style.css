@@ -1096,3 +1096,16 @@ li {
     }
 
 }
+@media(max-width:320px){
+    .hero .content{
+        width:230px;
+        left:3rem;
+        font-size:.5rem;
+    }
+    .secContainer{
+        height: 390px;
+    }
+    .ph-img {
+        left:-40% ;
+    }
+}
