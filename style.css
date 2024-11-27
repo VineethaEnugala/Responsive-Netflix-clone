@@ -811,12 +811,13 @@ li {
     }
     .hero {
         width: 160%;
-        height: 70vh;
+        height: 80vh;
         overflow: hidden;
     }
     
     .hero-img {
         width: 70%;
+        height:140%;
         object-fit: cover;
         transform: scale(1);
     }
@@ -825,7 +826,7 @@ li {
         position: absolute;
         top: 0;
         left: 0;
-        bottom:10rem;
+        bottom:5rem;
         right: 0;
         background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.8) 100%);
     }
@@ -921,7 +922,7 @@ li {
         font-weight: 600;
     }
     .secContainer{
-        height: 500px;
+        height: 80vh;
     }
     .container{
         margin-top:-5rem;
@@ -985,10 +986,11 @@ li {
     .desc3{
         width: 100%;
     }
+    
     .ph-img {
         width: 45vh;
         height: 35vh;
-        left:-60% ;
+        left:-38% ;
     }
     .ph-box {
         width: 160px;
@@ -1024,7 +1026,7 @@ li {
     .sec4-img {
         width: 40vh;
         height: 30vh;
-        left: -50%;
+        left: -30%;
     }
     .title,.title1,.title2,.title3{
         font-size:1.4em;
@@ -1095,4 +1097,11 @@ li {
         margin-bottom: 0;
     }
 
+}
+@media(max-width:320px){
+    .hero .content{
+        width:250px;
+        font-size:1rem;
+        left:2rem;
+    }
 }
